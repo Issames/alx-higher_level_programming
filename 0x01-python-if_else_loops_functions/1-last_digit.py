@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 import random
 
+
 def get_randn():
-    num = random.randint(-10000,10000)
+    num = random.randint(-10000, 10000)
     return num
 
 def get_last_digit(num):
@@ -26,7 +27,7 @@ def print_last_digit(num):
         print('{}'.format('and is less than 6 and not 0'))
 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     num = get_randn()
     last_digit = get_last_digit(num)
     print_last_digit(last_digit)
