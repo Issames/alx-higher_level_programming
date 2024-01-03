@@ -17,7 +17,7 @@ def get_last_digit(num):
             return 0
 
 
-def print_last_digit(num):
+def print_last_digit(last_digit):
     print('Last digit of {:d} is {:d}'.format(num, last_digit), end=" ")
     if last_digit > 5:
         print('{}'.format('and is greater than 5'))
