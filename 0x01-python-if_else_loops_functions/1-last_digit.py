@@ -6,6 +6,7 @@ def get_randn():
     num = random.randint(-10000, 10000)
     return num
 
+
 def get_last_digit(num):
     if num >= 0:
         return num % 10
@@ -16,9 +17,8 @@ def get_last_digit(num):
             return 0
 
 
-
 def print_last_digit(num):
-    print('Last digit of {:d} is {:d}'.format(number, last_digit), end=" ")
+    print('Last digit of {:d} is {:d}'.format(num, last_digit), end=" ")
     if last_digit > 5:
         print('{}'.format('and is greater than 5'))
     elif last_digit == 0:
