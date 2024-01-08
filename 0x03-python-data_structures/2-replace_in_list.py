@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 def replace_in_list(my_list, index, element):
     if index < 0:
         return my_list
@@ -10,7 +11,7 @@ def replace_in_list(my_list, index, element):
         return my_list
 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     my_list = [1,2,3,4,5]
     index = 3
     new_element = 9
